@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Edge Travel</name>
+  <author>Snowy Tusk</author>
+  <packageId>snowytusk.edgetravel</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <description>
+Edge Travel превращает край карты RimWorld в продолжение пути, а не в невидимую стену.
+
+Колонист в режиме призыва может дойти до границы карты и перейти в соседнюю область. Посещенные области сохраняются и восстанавливаются при возвращении, поэтому путь действительно продолжается.
+
+Уже работает:
+- переход через край карты для колонистов в режиме призыва;
+- сохранение и восстановление посещенных областей;
+- автопереход можно отключить в настройках мода;
+- требуется Harmony;
+- поддерживается RimWorld 1.6.
+  </description>
+</ModMetaData>

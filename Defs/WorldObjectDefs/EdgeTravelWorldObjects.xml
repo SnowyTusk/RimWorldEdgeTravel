@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <WorldObjectDef ParentName="StaticWorldObjectBase">
+    <defName>EdgeTravel_Chunk</defName>
+    <label>соседняя область</label>
+    <description>Соседняя локальная область, созданная Edge Travel.</description>
+    <worldObjectClass>SnowyTusk.EdgeTravel.EdgeTravelMapParent</worldObjectClass>
+    <texture>World/WorldObjects/Camp</texture>
+    <expandingIcon>false</expandingIcon>
+    <canHaveFaction>true</canHaveFaction>
+    <canBePlayerHome>true</canBePlayerHome>
+    <treatAsPlayerHome>true</treatAsPlayerHome>
+    <mapGenerator>Base_Player</mapGenerator>
+    <selectable>true</selectable>
+  </WorldObjectDef>
+
+</Defs>
